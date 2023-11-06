@@ -13,3 +13,14 @@ index.tsx -- BrowserRouter로 수정
 app.tsx 수정
 
 pages에 home.tsx 만들기
+
+Home.tsx 수정하기 원본 index.html에서 들고와서
+
+오류 해결
+주석처리
+img 태그 닫기
+div 숫자형식 "" 대신 {}로 감싸기
+for -> htmlFor
+frameborder="0" style="border:0; width: 100%; height: 290px;"  allowfullscreen>
+frameBorder={0} style={{border:0, width: 100 + "%", height: 290 + "px"}} allowFullScreen>
+
