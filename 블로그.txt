@@ -1,0 +1,15 @@
+내 블로그 타임라인
+
+assets, components/common, pages, services, types, utils 폴더만들기
+
+public assets에 원본 파일 다 넣기
+
+src assets에도 원본파일 다 넣기
+
+common에 HeaderCom.tsx FooterCom.tsx NotFound.tsx 생성
+
+index.tsx -- BrowserRouter로 수정
+
+app.tsx 수정
+
+pages에 home.tsx 만들기
