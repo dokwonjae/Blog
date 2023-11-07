@@ -1,11 +1,10 @@
 import React from 'react';
-import logo from './logo.svg';
+import "./assets/css/style.css";
 import './App.css';
 import { Route, Routes } from 'react-router-dom';
 import HeaderCom from './components/common/HeaderCom';
 import Home from './pages/Home';
 import FooterCom from './components/common/FooterCom';
-import { NOTFOUND } from 'dns';
 import NotFound from './components/common/NotFound';
 
 function App() {
@@ -18,7 +17,6 @@ function App() {
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='*' element={<NotFound />} />
-
 
 
       </Routes>

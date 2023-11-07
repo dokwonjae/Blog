@@ -9,14 +9,14 @@ function HeaderCom() {
     <div className="d-flex flex-column">
 
       <div className="profile">
-        <img src="assets/img/profile-img.jpg" alt="" className="img-fluid rounded-circle"/>
+        <img src="assets/img/me.jpg" alt="" className="img-fluid rounded-circle"/>
         <h1 className="text-light"><a href="index.html">Do Kwonjae</a></h1>
         <div className="social-links mt-3 text-center">
-          <a href="#" className="twitter"><i className="bx bxl-twitter"></i></a>
-          <a href="#" className="facebook"><i className="bx bxl-facebook"></i></a>
           <a href="https://www.instagram.com/mr.___.do/" className="instagram"><i className="bx bxl-instagram"></i></a>
-          <a href="#" className="google-plus"><i className="bx bxl-skype"></i></a>
-          <a href="#" className="linkedin"><i className="bx bxl-linkedin"></i></a>
+          <a href="https://dobear.tistory.com/" className="github"><i className="bx bi-type-bold"></i></a>
+          <a href="#" className="github"><i className="bi bi-person-wheelchair"></i></a>
+          <a href="https://github.com/dokwonjae" className="github"><i className="bx bxl-github"></i></a>
+          
         </div>
       </div>
 

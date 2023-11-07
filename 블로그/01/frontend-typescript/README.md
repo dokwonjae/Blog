@@ -57,6 +57,11 @@ import Swiper from 'swiper';
 # 9-2) css import - App.tsx
 import 'swiper/css';
 
+# 10) npm i glightbox
+# 공홈 : https://www.npmjs.com/package/glightbox
+npm i glightbox
+
+
 
 # * 외부 라이브러리 타입이 없을 경우 처리 : 타입 설정
 # 1) tsconfig.json 파일 - compilerOptions 속성에 아래 추가 : 프로젝트시작위치/types - 이 위치에 타입을 인식하게 하는 경로 설정

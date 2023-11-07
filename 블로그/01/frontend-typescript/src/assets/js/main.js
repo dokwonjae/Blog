@@ -5,6 +5,19 @@
 * Author: BootstrapMade.com
 * License: https://bootstrapmade.com/license/
 */
+
+// TODO: 생성자 함수 사용 import
+// @srexi/purecounterjs import
+import PureCounter from "@srexi/purecounterjs";
+// aos import
+import AOS from "aos";
+// glightbox import
+import GLightbox from "glightbox";
+// swiper import
+import Swiper from "swiper";
+
+/* eslint-disable */
+function initMain(){
 (function() {
   "use strict";
 
@@ -259,4 +272,7 @@
    */
   new PureCounter();
 
+
 })()
+}
+export default initMain;

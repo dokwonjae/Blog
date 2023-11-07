@@ -1,6 +1,12 @@
-import React from 'react'
+import React, { useEffect } from 'react'
+import initMain from '../assets/js/main';
+
 
 function Home() {
+  useEffect(() => {
+    initMain();
+  }, []);
+
   return (
     <>
      {/* <!-- ======= Hero Section ======= --> */}
