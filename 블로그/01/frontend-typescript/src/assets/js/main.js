@@ -16,8 +16,10 @@ import GLightbox from "glightbox";
 // swiper import
 import Swiper from "swiper";
 
+
+
 /* eslint-disable */
-function initMain(){
+export default function initMain() {
 (function() {
   "use strict";
 
@@ -272,7 +274,5 @@ function initMain(){
    */
   new PureCounter();
 
-
 })()
 }
-export default initMain;

@@ -9,7 +9,8 @@ function HeaderCom() {
     <div className="d-flex flex-column">
 
       <div className="profile">
-        <img src="assets/img/me.jpg" alt="" className="img-fluid rounded-circle"/>
+        {/* <img src="assets/img/me.jpg" alt="" className="img-fluid rounded-circle"/> */}
+        <img src={require("../../assets/img/me.jpg")} alt="" className="img-fluid rounded-circle"/>
         <h1 className="text-light"><a href="index.html">Do Kwonjae</a></h1>
         <div className="social-links mt-3 text-center">
           <a href="https://www.instagram.com/mr.___.do/" className="instagram"><i className="bx bxl-instagram"></i></a>
