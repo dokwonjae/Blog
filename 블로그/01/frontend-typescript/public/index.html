@@ -52,7 +52,10 @@
     <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
 
     <!-- Template Main CSS File -->
-    <link href="assets/css/style.css" rel="stylesheet" />
+    <!-- todo: public의 assets 파일에 css 파일이 있으면 밑에 코드가 작동 import 필요 x -->
+    <!-- <link href="assets/css/style.css" rel="stylesheet" /> -->
+    <!-- todo: 밑에코드는 걍 작동안함 경로 문제 x app.tsx에 import 해서 쓸 것-->
+    <!-- <link href="../src/assets/css/style.css" rel="stylesheet" />  -->
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
@@ -67,20 +70,23 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
-      <!-- 여기 -->
+    <!-- 여기 -->
 
-      <!-- Vendor JS Files -->
-  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
-  <script src="assets/vendor/aos/aos.js"></script>
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-  <script src="assets/vendor/typed.js/typed.umd.js"></script>
-  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+    <script src="assets/vendor/aos/aos.js"></script>
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="assets/vendor/typed.js/typed.umd.js"></script>
+    <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+    <script src="assets/vendor/php-email-form/validate.js"></script>
 
-  <!-- Template Main JS File -->
-  <script src="../assets/js/main.js"></script>
+    <!-- Template Main JS File -->
+    <!-- todo: public의 assets 파일에 js 파일이 있으면 밑에 코드가 작동 import 필요 x -->
+    <!-- <script src="../assets/js/main.js"></script> -->
+    <!-- todo: 밑에코드는 걍 작동안함 경로 문제 x app.tsx에 import 해서 쓸 것-->
+    <!-- <script src="../src/assets/js/main.js"></script> -->
   </body>
 </html>
